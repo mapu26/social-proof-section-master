@@ -231,3 +231,93 @@ body{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media(min-width:1440px){
+    .container{
+        margin-left: 166px;
+    }
+    .header{
+        width: 1440px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .header-texto{
+        margin-top: 120px;
+        width: 412px;
+        height: 245px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__titulo{
+            text-align: left;
+            font-size: 3.5em;
+            line-height: 45px;
+            margin: 0;
+            width: 100%;
+        }
+        &__parrafo{
+            text-align: left;
+            font-size: 1.1em;
+            margin: 0;
+        }
+    }
+    .header-estrellas{
+        margin-top: 120px;
+        width: 540px;
+        height:200px;
+        margin-left: 165px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        &__1{
+            height: 56px;
+            width: 440px;
+            display: flex;
+            justify-content: center;
+            align-self: flex-start;
+            img{
+                width: 17px;
+                height: 17px;
+                margin-top: 10px;
+            }
+            &-texto{
+                padding-left: 30px;
+                margin-bottom: 15px;
+            }
+        }
+        &__2{
+            height: 56px;
+            width: 440px;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            img{
+                width: 17px;
+                height: 17px;
+                margin-top: 10px;
+            }
+            &-texto{
+                padding-left: 30px;
+                margin-bottom: 15px;
+            }
+        }
+        &__3{
+            height: 56px;
+            width: 440px;
+            display: flex;
+            justify-content: center;
+            align-self: flex-end;
+            img{
+                width: 17px;
+                height: 17px;
+                margin-top: 10px;
+            }
+            &-texto{
+                padding-left: 30px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
